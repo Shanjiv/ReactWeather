@@ -5,7 +5,7 @@ var app = express();
 const PORT = process.env.PORT || 3000;
 
 
-//common pattern for express middleware
+//common pattern for express middleware => let us do something with every request
 //req => index.html or bundle.js
 //res => what cant sent back
 //next => move on e.g call when middles is done
